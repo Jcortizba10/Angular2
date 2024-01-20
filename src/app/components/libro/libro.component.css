@@ -1,0 +1,29 @@
+/* Estilo para el contenedor de cada libro */
+div {
+  background-color: #F9EFDB;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el título del libro */
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Estilo para las etiquetas de información */
+p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Estilo para la línea horizontal */
+hr {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border: 0;
+  border-top: 1px solid #ddd;
+}

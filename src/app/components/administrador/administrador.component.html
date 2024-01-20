@@ -1,0 +1,45 @@
+<section class="todoapp">
+  <header class="header">
+    <div class="container">
+      <h1>Administrador</h1>
+    </div>
+  </header>
+
+  <form #formulario="ngForm" (submit)="onSubmit(formulario.value)">
+    <div>
+      <label>Título</label>
+      <input type="text" name="Titulo" ngModel>
+    </div>
+    <div>
+      <label>Autor</label>
+      <input type="text" name="Autor" ngModel>
+    </div>
+    <div>
+      <label>Año de Publicacion</label>
+      <input type="number" name="Ano" ngModel>
+    </div>
+    <div>
+      <label>Cantidad Disponible</label>
+      <input type="number" name="Cantidad" ngModel>
+    </div>
+    <div>
+      <label>IBSN</label>
+      <input type="number" name="IBSN" ngModel>
+    </div>
+
+    <input type="submit" value="Enviar">
+  </form>
+
+
+    <!--*
+  <div>
+    <ul>
+      @for (task of todoList; track $index) {
+        <li (click)="onRemove($index)">
+          {{task.Titulo}} - {{task.Autor}} - {{task.Cantidad}} - {{task.Ano}} - {{task.IBSN}}
+      </li>
+      }
+    </ul>
+  </div>
+-->
+</section>
